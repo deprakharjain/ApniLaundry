@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "126822713484",
+    "firebase_url": "https://clothpile-f0e67.firebaseio.com",
+    "project_id": "clothpile-f0e67",
+    "storage_bucket": "clothpile-f0e67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126822713484:android:fccfaa1f3309b81c8a93a9",
+        "android_client_info": {
+          "package_name": "com.example.clothpile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126822713484-mu5ie5rl4t7rbvbp7fa3b9ag6rus4qc2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.clothpile",
+            "certificate_hash": "5c04129ac1d7b7ec2888e80579222de53cdc4bb3"
+          }
+        },
+        {
+          "client_id": "126822713484-6modt0nd7563vks8v886hivkns2et39o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyHvCGvJdNI9xPMUbyydHWL9xE95IC3D0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126822713484-6modt0nd7563vks8v886hivkns2et39o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

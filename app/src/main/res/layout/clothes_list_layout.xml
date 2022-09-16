@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="5dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:padding="5dp">
+
+    <TextView
+        android:id="@+id/room_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laundry Number: 730"
+        android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/collection_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/room_number"
+            android:layout_marginTop="10dp"
+            android:text="Date of collection : 5/11"/>
+        <TextView
+            android:id="@+id/total_clothes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/collection_date"
+            android:layout_marginTop="10dp"
+            android:text="Total clothes : 10"/>
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/total_clothes"
+            android:background="@color/grey"
+            android:layout_marginVertical="5dp"/>
+        <TextView
+            android:id="@+id/bill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider"
+            android:visibility="invisible"
+            android:layout_marginTop="10dp"
+            android:fontFamily="monospace"
+            android:text="Bill : Rs. 50"
+            android:layout_alignParentRight="true"
+            android:typeface="monospace"
+            android:layout_alignParentEnd="true" />
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bill"
+            android:layout_alignParentStart="true"
+            android:text="Delete"
+            android:layout_alignParentLeft="true" />
+        <Button
+            android:id="@+id/edit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bill"
+            android:layout_alignParentRight="true"
+            android:text="Edit"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
