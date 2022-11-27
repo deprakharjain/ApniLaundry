@@ -1,4 +1,4 @@
-# ClothPile
+# Apni Laundry Application 
 
 ## An android app to help college students manage their laundry bills
 
